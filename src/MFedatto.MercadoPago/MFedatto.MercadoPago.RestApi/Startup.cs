@@ -40,6 +40,8 @@ namespace MFedatto.MercadoPago.RestApi
                 app.UseHsts();
             }
 
+            //app.UseSwagger();
+
             app.UseHttpsRedirection();
             app.UseMvc();
         }
